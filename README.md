@@ -13,12 +13,12 @@ The dataset simulates user activity from a B2B SaaS application with both free a
 
 User interactions such as:
 
-signup
-login
-feature usage
-onboarding completion
-inactivity
-upgrade
+* signup
+* login
+* feature usage
+* onboarding completion
+* inactivity
+* upgrade
 
 are captured as events and stored in Airtable.
 
@@ -30,8 +30,32 @@ The objective of this project is to design a fully automated lifecycle system th
 
 Many systems fail due to:
 
-delayed or inconsistent follow-ups
-lack of visibility into user engagement
-inability to track lifecycle progression
+* Delayed or inconsistent follow-ups
+* Lack of visibility into user engagement
+* Inability to track lifecycle progression
 
 This project addresses these gaps by automating lifecycle transitions, scoring user activity, and triggering timely communication based on user behavior.
+
+## System Design & KPI Framework
+
+The system is built around tracking user activity and translating it into actionable lifecycle insights.
+
+Key components:
+* Event Tracking
+* User actions are captured in an Event table and categorized by type (e.g., signup, feature usage, inactivity).
+* Event Scoring System
+* Each event type is assigned a value to represent user engagement level.
+* User-Level Aggregation
+* Event scores are rolled up into the Users table to calculate an overall engagement or usage score.
+* Lifecycle Progression
+  
+- Based on user activity and scores, users are automatically moved across lifecycle stages such as:
+  *  New Signup
+  * Onboarding
+  * Engaged
+  * Power User
+  * Churn Risk
+- Lifecycle Logging
+  * All stage transitions are recorded in a Lifecycle Log table for visibility and auditing.
+  * Automated Messaging
+  * Emails are triggered based on lifecycle stage and logged in a Message table to track communication history.
