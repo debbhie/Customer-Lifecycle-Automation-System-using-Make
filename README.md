@@ -88,12 +88,12 @@ Workflow:
   * Identify appropriate message template based on lifecycle stage
   * Send personalized email via Gmail
   * Log the message in the Message table with:
-        * Date sent
-        * Status
-        * Lifecycle stage
-        * Subject
-        * Message type
-        * User ID
+    * Date sent
+    * Status
+    * Lifecycle stage
+    * Subject
+    * Message type
+    * User ID
 
  This ensures:
 
