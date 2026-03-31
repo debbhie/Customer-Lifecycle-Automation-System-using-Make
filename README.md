@@ -59,3 +59,44 @@ Key components:
   * All stage transitions are recorded in a Lifecycle Log table for visibility and auditing.
   * Automated Messaging
   * Emails are triggered based on lifecycle stage and logged in a Message table to track communication history.
+ 
+  ## Automation Architecture
+- Scenario 1: Lifecycle Management (Airtable)
+
+This scenario monitors user activity and updates lifecycle stages dynamically.
+
+Workflow:
+
+  * Trigger: New or updated event in Airtable
+  * Identify event type (e.g., signup, feature_used, inactivity_detected)
+  * Assign value based on event type
+  * Update user’s cumulative engagement score
+  * Evaluate lifecycle stage based on defined thresholds
+  * Update the user’s lifecycle stage
+  * Log the transition in the Lifecycle Log table
+
+ This ensures that lifecycle progression is data-driven and continuously updated
+
+- Scenario 2: Communication Automation (Airtable + Gmail)
+
+This scenario handles lifecycle-based email communication.
+
+Workflow:
+
+  * Trigger: Change in lifecycle stage
+  * Retrieve user details (email, name, stage)
+  * Identify appropriate message template based on lifecycle stage
+  * Send personalized email via Gmail
+  * Log the message in the Message table with:
+        Date sent
+        Status
+        Lifecycle stage
+        Subject
+        Message type
+        User ID
+
+ This ensures:
+
+Timely follow-ups
+Consistent communication
+Full visibility into messaging activity
