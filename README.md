@@ -97,6 +97,29 @@ Workflow:
 
  This ensures:
 
-Timely follow-ups
-Consistent communication
-Full visibility into messaging activity
+* Timely follow-ups
+* Consistent communication
+* Full visibility into messaging activity
+
+## Key Insights
+
+* User behavior is diverse, with events such as feature usage, onboarding completion, and inactivity indicating different engagement levels.
+* Lifecycle transitions are effectively captured, showing users progressing between stages such as New Signup, Onboarding, and Engaged.
+* Communication coverage is not uniform, as not all users receive lifecycle emails, highlighting potential gaps in trigger conditions or timing.
+* Event-to-message mismatch exists, where some users generate activity without corresponding communication, indicating opportunities to improve follow-up logic.
+* Timing of engagement varies, suggesting that response speed and automation timing can be optimized further.
+
+## Recommendations
+* Improve email coverage logic
+* Ensure all users entering key lifecycle stages receive appropriate communication.
+* Introduce SLA-based triggers
+* Add time-based conditions (e.g., send email if no activity after X days).
+* Enhance lifecycle scoring model
+* Refine event weights to better reflect user intent and engagement.
+* Implement monitoring dashboard
+  Track KPIs such as:
+  * email coverage rate
+  * time to first engagement
+  * lifecycle progression rate
+* Add fallback/error handling
+Log missing data or failed triggers to improve system reliability.
