@@ -64,10 +64,13 @@ Key components:
  
   ## Automation Architecture
 - Scenario 1: Lifecycle Management (Airtable)
+<img width="2560" height="1384" alt="2" src="https://github.com/user-attachments/assets/c5f09119-e4b9-4b6f-9d90-ce9aaaef39cd" />
 
 This scenario monitors user activity and updates lifecycle stages dynamically.
 
-Workflow:
+:<img width="2560" height="1600" alt="log" src="https://github.com/user-attachments/assets/62d6564b-fc82-4b2d-bf60-1425ae1db6a1" />
+
+Workflow
 
   * Trigger: New or updated event in Airtable
   * Identify event type (e.g., signup, feature_used, inactivity_detected)
@@ -92,8 +95,8 @@ Workflow:
   * Retrieve user details (email, name, stage)
   * Identify appropriate message template based on lifecycle stage
   * Send personalized email via Gmail
-
-    <img width="2560" height="1600" alt="log" src="https://github.com/user-attachments/assets/d1acd3b5-4177-4bc0-a251-f273a8c8124c" />
+    
+<img width="2560" height="1596" alt="Message" src="https://github.com/user-attachments/assets/93e9ec89-3738-4574-b108-9ff21590dc3c" />
 
   * Log the message in the Message table with:
     * Date sent
@@ -110,7 +113,8 @@ Workflow:
 * Consistent communication
 * Full visibility into messaging activity
   
-<img width="2560" height="1596" alt="Message" src="https://github.com/user-attachments/assets/d5b8998f-61a4-430a-a6ba-dfc079989c63" />
+  <img width="2444" height="1343" alt="welcome" src="https://github.com/user-attachments/assets/cbfdb1a4-cd83-4045-a6f9-a7548ffbbc49" />
+
 
 ## Key Insights
 
