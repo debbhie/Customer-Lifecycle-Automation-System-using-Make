@@ -1,5 +1,15 @@
 # Customer Lifecycle Automation System using Make
 
+## Table of Content
+- [Overview](#overview)
+- [Data Source](#data-source)
+- [Problem Statement](#problem-statement)
+- [System Design and KPI Framework](#system-design-and-kpi-frame-work)
+- [Automation Architecture](#automation-architecture)
+- [Key Insights](#key-insights)
+- [Recommendations](#recommendations)
+
+
 ## Overview
 This project focuses on designing and implementing an end-to-end customer lifecycle automation system, covering the journey from lead acquisition to customer engagement and retention.
 
@@ -38,7 +48,7 @@ Many systems fail due to:
 
 This project addresses these gaps by automating lifecycle transitions, scoring user activity, and triggering timely communication based on user behavior.
 
-## System Design & KPI Framework
+## System Design and KPI Framework
 
 The system is built around tracking user activity and translating it into actionable lifecycle insights.
 
