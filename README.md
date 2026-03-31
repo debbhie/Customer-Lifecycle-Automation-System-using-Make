@@ -10,6 +10,7 @@ It also introduces a structured data model to monitor how quickly users are enga
 ## Data Source
 
 The dataset simulates user activity from a B2B SaaS application with both free and paid plans.
+<img width="2560" height="1600" alt="user" src="https://github.com/user-attachments/assets/df209459-70c9-4734-98f0-904a40eab490" />
 
 User interactions such as:
 
@@ -21,6 +22,7 @@ User interactions such as:
 * upgrade
 
 are captured as events and stored in Airtable.
+<img width="2560" height="1600" alt="event" src="https://github.com/user-attachments/assets/c072e7c9-54b8-4467-9d5e-40a41ab2727b" />
 
 Synthetic data was used to simulate realistic user behavior and test the automation system under varying conditions.
 
@@ -82,6 +84,8 @@ Workflow:
 - Scenario 2: Communication Automation (Airtable + Gmail)
 
 This scenario handles lifecycle-based email communication.
+
+<img width="2447" height="1346" alt="prod email" src="https://github.com/user-attachments/assets/927fda60-82ba-41a6-9bc4-7ee91cfda87c" />
 
 Workflow:
 
