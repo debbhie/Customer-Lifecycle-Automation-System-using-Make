@@ -108,9 +108,6 @@ Workflow:
 * Consistent communication
 * Full visibility into messaging activity
   
-<img width="2560" height="1362" alt="1" src="https://github.com/user-attachments/assets/f4a764ec-979c-4f65-95af-01895d9bf7b5" />
-
-
 <img width="2560" height="1596" alt="Message" src="https://github.com/user-attachments/assets/d5b8998f-61a4-430a-a6ba-dfc079989c63" />
 
 ## Key Insights
