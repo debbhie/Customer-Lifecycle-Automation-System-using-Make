@@ -4,7 +4,7 @@
 - [Overview](#overview)
 - [Data Source](#data-source)
 - [Problem Statement](#problem-statement)
-- [System Design and KPI Framework](#system-design-and-kpi-frame-work)
+- [System Design and KPI Framework](#system-design-and-kpi-framework)
 - [Automation Architecture](#automation-architecture)
 - [Key Insights](#key-insights)
 - [Recommendations](#recommendations)
