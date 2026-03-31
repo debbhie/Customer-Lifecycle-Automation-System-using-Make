@@ -75,7 +75,9 @@ Workflow:
   * Update the user’s lifecycle stage
   * Log the transition in the Lifecycle Log table
 
- This ensures that lifecycle progression is data-driven and continuously updated
+ This ensures that lifecycle progression is data-driven and continuously updated.
+ 
+<img width="2560" height="1384" alt="2" src="https://github.com/user-attachments/assets/a844d73a-448f-409c-8dd3-eb34a53a00ea" />
 
 - Scenario 2: Communication Automation (Airtable + Gmail)
 
@@ -100,6 +102,8 @@ Workflow:
 * Timely follow-ups
 * Consistent communication
 * Full visibility into messaging activity
+  
+<img width="2560" height="1362" alt="1" src="https://github.com/user-attachments/assets/f4a764ec-979c-4f65-95af-01895d9bf7b5" />
 
 ## Key Insights
 
