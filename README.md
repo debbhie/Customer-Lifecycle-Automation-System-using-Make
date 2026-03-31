@@ -78,7 +78,6 @@ Workflow:
   * Log the transition in the Lifecycle Log table
 
  This ensures that lifecycle progression is data-driven and continuously updated.
- <img width="2560" height="1600" alt="log" src="https://github.com/user-attachments/assets/d6b4b35c-84d8-447e-aaab-25c8d82d6f9b" />
 
 
 - Scenario 2: Communication Automation (Airtable + Gmail)
@@ -93,6 +92,9 @@ Workflow:
   * Retrieve user details (email, name, stage)
   * Identify appropriate message template based on lifecycle stage
   * Send personalized email via Gmail
+
+    <img width="2560" height="1600" alt="log" src="https://github.com/user-attachments/assets/d1acd3b5-4177-4bc0-a251-f273a8c8124c" />
+
   * Log the message in the Message table with:
     * Date sent
     * Status
