@@ -78,8 +78,8 @@ Workflow:
   * Log the transition in the Lifecycle Log table
 
  This ensures that lifecycle progression is data-driven and continuously updated.
- 
-<img width="2560" height="1384" alt="2" src="https://github.com/user-attachments/assets/a844d73a-448f-409c-8dd3-eb34a53a00ea" />
+ <img width="2560" height="1600" alt="log" src="https://github.com/user-attachments/assets/d6b4b35c-84d8-447e-aaab-25c8d82d6f9b" />
+
 
 - Scenario 2: Communication Automation (Airtable + Gmail)
 
@@ -100,6 +100,7 @@ Workflow:
     * Subject
     * Message type
     * User ID
+<img width="2447" height="1346" alt="prod email" src="https://github.com/user-attachments/assets/47ebb811-8fdb-48cb-a767-710391591377" />
 
  This ensures:
 
@@ -108,6 +109,9 @@ Workflow:
 * Full visibility into messaging activity
   
 <img width="2560" height="1362" alt="1" src="https://github.com/user-attachments/assets/f4a764ec-979c-4f65-95af-01895d9bf7b5" />
+
+
+<img width="2560" height="1596" alt="Message" src="https://github.com/user-attachments/assets/d5b8998f-61a4-430a-a6ba-dfc079989c63" />
 
 ## Key Insights
 
