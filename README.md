@@ -85,7 +85,7 @@ Workflow:
 
 This scenario handles lifecycle-based email communication.
 
-<img width="2447" height="1346" alt="prod email" src="https://github.com/user-attachments/assets/927fda60-82ba-41a6-9bc4-7ee91cfda87c" />
+<img width="2560" height="1362" alt="1" src="https://github.com/user-attachments/assets/5cd62d37-7eea-4cd0-b23e-68c8f3c261c8" />
 
 Workflow:
 
