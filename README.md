@@ -127,12 +127,16 @@ Workflow:
 
 
 ## Key Insights
-
-* User behavior is diverse, with events such as feature usage, onboarding completion, and inactivity indicating different engagement levels.
-* Lifecycle transitions are effectively captured, showing users progressing between stages such as New Signup, Onboarding, and Engaged.
-* Communication coverage is not uniform, as not all users receive lifecycle emails, highlighting potential gaps in trigger conditions or timing.
-* Event-to-message mismatch exists, where some users generate activity without corresponding communication, indicating opportunities to improve follow-up logic.
-* Timing of engagement varies, suggesting that response speed and automation timing can be optimized further.
+* User activity diversity from Event table:
+   Users exhibit varied behaviors including signups, feature usage, upgrades, and inactivity events, indicating a realistic simulation of different lifecycle stages.
+* Lifecycle progression exists from Lifecycle Log:
+  Lifecycle transitions show users moving between stages such as New Signup, Onboarding, and Engaged, demonstrating that the automation correctly captures state changes.
+*  Communication coverage is partial from Message table:
+  Not all users receive lifecycle emails, suggesting gaps in communication coverage or trigger conditions.
+* Timing inconsistency:
+   Variations in event and message timing indicate that user engagement and communication are not uniform, reflecting real-world system behavior.
+* Engagement drop-offs from Event + Message mismatch:
+   Some users generate events without corresponding messages, highlighting potential drop-offs in lifecycle communication.
 
 ## Recommendations
 * Improve email coverage logic
